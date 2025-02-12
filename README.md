@@ -83,7 +83,7 @@ php artisan migrate
 ```
 It’s not a bad idea to check your database to make sure everything migrated the way you expected.
 
-# Troubleshooting
+## Troubleshooting
 Missing Dependencies: Verify that your PHP and Composer versions satisfy the project’s requirements if you run into problems installing dependencies.
 Permission Issues: In order to enable the web server to write files, you might need to change the permissions of the storage and bootstrap/cache directories on some systems.
 ```
